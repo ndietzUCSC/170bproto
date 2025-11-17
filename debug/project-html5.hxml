@@ -1,0 +1,81 @@
+-cp C:\Users\Norah\Documents\Armory2509\armory\Kha\Sources
+-cp C:\Users\Norah\Documents\Armory2509\armory\Kha\Backends\HTML5
+-cp C:\Users\Norah\Documents\170proto\Sources
+-cp C:\Users\Norah\Documents\Armory2509\armory\armory\Sources
+-cp C:\Users\Norah\Documents\Armory2509\armory\iron\Sources
+-cp C:\Users\Norah\Documents\Armory2509\armory\lib\haxebullet\Sources
+-cp C:/Users/Norah/Documents/Armory2509/armory/armory
+-cp C:/Users/Norah/Documents/Armory2509/armory/iron
+-cp C:/Users/Norah/Documents/Armory2509/armory/lib/haxebullet
+-D hxcpp_smart_strings
+-D C:/Users/Norah/Documents/Armory2509/armory/armory
+-D C:/Users/Norah/Documents/Armory2509/armory/iron
+-D C:/Users/Norah/Documents/Armory2509/armory/lib/haxebullet
+-D arm_radiance
+-D arm_deferred
+-D arm_csm
+-D arm_ltc
+-D arm_brdf
+-D rp_hdr
+-D rp_renderer=Deferred
+-D rp_shadowmap
+-D rp_shadowmap_cascade=1024
+-D rp_shadowmap_cube=512
+-D rp_background=World
+-D rp_render_to_texture
+-D rp_antialiasing=Off
+-D rp_supersampling=1
+-D rp_ssgi=SSAO
+-D rp_resolution_filter=Linear
+-D arm_physics
+-D arm_bullet
+-D arm_assert_level=Error
+-D arm_soundcompress
+-D arm_audio
+-D arm_texcompress
+-D arm_skin
+-D arm_morph_target
+-D arm_particles
+-D arm_gpu_particles
+-D arm_resizable
+-D armory
+-D sys_g1
+-D sys_g2
+-D sys_g3
+-D sys_a1
+-D sys_a2
+-D kha_js
+-D kha_g1
+-D kha_g2
+-D kha_g3
+-D kha_a1
+-D kha_a2
+-D canvas_id=khanvas
+-D script_name=kha
+-D sys_g4
+-D kha_g4
+-D kha_webgl
+-D sys_html5
+-D kha_html5
+-D kha_html5_js
+-D kha
+-D kha_version=1810
+-D kha_project_name=tshirt45_1_0_25
+-js html5\kha.js
+--no-inline
+arm.node.Shirt
+--macro keep('arm.node.Shirt')
+armory.trait.internal.UniformsManager
+--macro keep('armory.trait.internal.UniformsManager')
+arm.node.Spawner
+--macro keep('arm.node.Spawner')
+armory.trait.physics.bullet.PhysicsWorld
+--macro keep('armory.trait.physics.bullet.PhysicsWorld')
+armory.trait.physics.bullet.RigidBody
+--macro keep('armory.trait.physics.bullet.RigidBody')
+arm.node.Player
+--macro keep('arm.node.Player')
+arm.node.Level
+--macro keep('arm.node.Level')
+--debug
+-main Main
